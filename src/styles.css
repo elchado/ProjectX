@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.nav-style {
+	border-bottom: 1px white;
+}
+
+.background {
+	background-image: url("/assets/Charles-brand/texture_blue.jpeg");
+}
+
+.charles-brand {
+	width: 150px;
+	height: 40px;
+}
