@@ -1,21 +1,26 @@
    <body>
    	
+    <!-- Nav bar begins here-->
   	<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top style-nav ">
+      <!--container begins here -->
     	<div class="container ">
+        <!-- Charles Enterprises logo -->
+        <img class="navbar-brand charles-brand float-sm-left" src="../assets/Charles-brand/Logo_white.png" alt="Charles Enterprises logo">
+
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <img class="navbar-brand charles-brand float-sm-left" src="../assets/Charles-brand/Logo_white.png" alt="Charles Enterprises logo">
 
       <div class="collapse navbar-collapse " id="navbarsExampleDefault" >
         <ul class="navbar-nav ml-auto ">
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active pull-xs-right" href="" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US</a>
+           
             <div class="dropdown-menu" aria-labelledby="dropdown01">
               <a class="dropdown-item" href="#">WHO WE ARE</a>
               <a class="dropdown-item" href="#">WHAT WE DO</a>
-              
             </div>
+
           </li>
           
           <li class="nav-item active">
@@ -27,10 +32,8 @@
           </li>
         </ul>
        </div>
-  	 </div>
-
-        
-    </nav>
+  	 </div><!-- Container ends here -->
+    </nav> <!-- Navbar ends here -->
 
 
 
@@ -38,75 +41,218 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
 
 
-  <div class="jumbotron videoContainer">
-        <div class="overlay text-center">
-          <h3 class="header-text">Global financial platform for enterprises with tokenized ecosystems</h3>
-          <p class="text-white secondary-text"> Compliant ICOs - Global Network </p>
-          <p><a class="btn btn-outline-secondary btn-md gold-button" href="#" role="button">Register now</a></p>
-           <div class="col-lg-12 text-center button-scroll" >
-             <section id="section07" class="demo">
-              
-                <a href="#section08"><span></span><span></span><span></span></a>
-             </section>
-          </div>  
+    <div class="jumbotron videoContainer rounded-0">
+          <div class="overlay text-center">
+            <h3 class="header-text ">Global financial platform for enterprises with tokenized ecosystems</h3>
+            <p class="text-white secondary-text"> Compliant ICOs - Global Network </p>
+            <p><a class="btn btn-outline-secondary btn-md gold-button" href="#" role="button">Register now</a></p>
+             <div class="col-lg-12 text-center button-scroll hidden-md-up" >
+               <section id="section07" class="demo">
+                
+                  <a href="#section08"><span></span><span></span><span></span></a>
+               </section>
+            </div>  
 
 
-        </div> 
-        <video id="video-background" preload="" muted="" autoplay="" loop="" class="hidden-xs-down ">
-          <source src="../assets/Charles-brand/ce_video_2.mov" type="video/mp4">
-        </video>  
-  </div>  
+          </div> 
+          <video id="video-background" preload="" muted="" autoplay="" loop="" class="hidden-md-down ">
+            <source src="../assets/Charles-brand/ce_video_2.mov" type="video/mp4">
+          </video>  
+    </div>  <!-- Main Jumbotron ends here -->
 
 
 
 
-    <div class="container" id="mainInfo">
+
+
+    <!--First container initiates here -->
+    <div class="container mt-2 pb-8
+     " id="mainInfo">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Tokens</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>ICO</h2>
-          <p>You can now be invest on tech companies. Initial coin offerings (ICO) is the new way tech companies are being funded. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">Market report &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Excghange</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh. </p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-       </div>
+        <div class="col-md-4 p-sm-5 ">
+            <img class="center-icon " src="../assets/Charles-brand/Token_CE.png">
+            <h5 class="center-text">Digital Assets</h5>
+            <p class="text-features"> We have have created an integrated banking service to allow our members to  globally access, store and trade digital assets  </p>
+            <p class="features-link" href="google.com">More about digital assets &raquo;</p>
+        </div>  <!-- first column ends here -->
+        <div class="col-md-4 p-sm-5"> 
+            <img class="center-icon " src="../assets/Charles-brand/ICO_CE.png">
+            <h5 class="center-text">Token Sales</h5>
+            <p class="text-features">We provide the most secure, compliant and intuitive way to particpate on token sales from Venture Capital vetted enterprises. Particpate and enjoy the benefits of being a token holder</p>
+            <p class="features-link">Market report &raquo;</p>
+        </div> <!-- Second column ends here -->
+        <div class="col-md-4 p-sm-5"> 
+            <img class="center-icon " src="../assets/Charles-brand/compliance.png">
+            <h5 class="center-text">Compliance Oversight</h5>
+            <p class="text-features">Charles Enterprises platform give indiviuals around the world the oportunity to participate on Globally compliant toke sales </p>
+            <p class="features-link"> View details &raquo;</p>
+         </div> <!-- Third column ends here -->
         
-      </div>
+      </div>  <!-- First row ends here -->
+    </div> <!-- First container ends here -->
 
-      <hr>
 
-      <footer>
-      <div class="container" id="mainInfo">
-      <!-- Example row of columns -->
-      <div class="row">
+
+     
+
+
+      <!--Second container initiates here -->
+    <div class="container d-flex justify-content-center p-0 pt-3  "> 
+      <div class="row ">
+
+        <div class="col-md-6  center-text">
+
+            <h6> Need more information? </h6>
+
+        </div> <!-- first column ends here -->
+
+        <div class="col-md-6">
+
+             <button type="button" class="btn btn-primary mx-auto  button-meeting btn-lg btn-block">SCHEDULE A MEETING </button>
+
+        </div> <!-- second column ends here -->
+
+
+      </div> <!--row ends here-->
+    </div> <!-- Second container ends here -->
+
+
+       
+
+
+      <!--Third container initiates here -->
+      <div class="container-fluid"> 
+        <div class="row">
+
+          <div class="col-md-6 p-0">
+            <img class="mw-100 " src="../assets/Charles-brand/descentralized_exchange.jpg">
+            
+
+          </div> <!-- first column ends here -->
+          <div class="w-10"></div>
+          <div class="col-md-6 pr-5 p-0 p-sm-5 faded-background corrector-font-size">
+
+            <h5 class=" ecosystem-description-title">Secure & liquid digital assets</h5>
+            <p class="text-features">Charles Enterprises presents an advanced fintech ecosytem that allows individuals around the world to allocate economic resources on promising technology enterprises. <br><br>The ecosystem allows enterprises to fundraise through the distribution of digital assets or "token sales" while providing token holders around the world to purchase, invest and trade digital assets and benefit from the success of highly vetted enterprises </p>
+
+            <p class="features-link text-left"> View details &raquo;</p>
+          </div> <!-- second column ends here -->
+
+
+        </div> <!--row ends here-->
+      </div> <!-- Third container ends here -->
+
+
+
+
+
+      <!--- Fourth container begins here -->
+      <div class="container p-sm-5 pb-5 " >
+        <div class="row">
+          <div class="col-md-7">
+             <h5 class=" ecosystem-description-title">NASDEX</h5>
+            <p class="text-features">Charles Enterprises presents an advanced fintech ecosytem that allows individuals around the world to allocate economic resources on promising technology enterprises. <br><br>The ecosystem allows enterprises to fundraise through the distribution of digital assets or "token sales" while providing individuals a complete platform to buy, invest and trade </p>
+
+            <p class="features-link text-left"> View details &raquo;</p>
+          </div>
+          <div class="col-md-5 p-0 ">
+            <img class="mw-100" src="../assets/Charles-brand/Nasdex-exchange.jpg">
+          </div>
+        </div>
+      </div> <!-- Fourth container ends here -->
       
-        <div class="col-md-6">
-          
-          <p>Disclaimer</p>
-          
-       </div>
-        <div class="col-md-6">
-        
-          <p>Learn More</p>
-          
+
+
+
+    
+      <!--- Fifth container begins here -->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 p-5">
+            <div> <h5 class="center-text p-5"> Token Sales</h5> </div>
+            <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="../assets/Charles-brand/coming-soon.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Charles Enterprises</h4>
+                  <p class="card-text">Charles Enterprises presents an advanced fintech ecosytem that allows individuals around the world to allocate economic resources on promising technology enterprises.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">30 days 2 hours</small>
+                </div>
+              </div>
+              <div class="card hidden-md-down ">
+                <img class="card-img-top" src="../assets/Charles-brand/coming-soon.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Coming soon</h4>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">30 days 2 hours</small>
+                </div>
+              </div>
+              <div class="card hidden-lg-down ">
+                <img class="card-img-top" src="../assets/Charles-brand/coming-soon.jpg" alt="Card image cap">
+                <div class="card-block">
+                  <h4 class="card-title">Coming soon</h4>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">37 days 2 hours</small>
+                </div>
+              </div>
+            </div>
+          </div>    
         </div>
+      </div> <!-- Fifth container ends here -->
+   
+
+
+      <!-- Footer begings here -->
+      <footer>
+        <div class="container-fluid p-4 footer-style " >
+          <!-- Example row of columns -->
+            <div class="row">
+  
+              <div class="col-md-4  border ">
+                
+                <h6 class="heading7">DISCLAIMER</h6>
+                <p class="footer-disclaimer border-bottom">Charles Enterprises is a technical platform (“Platform”) on which token-backed networks can connect with participants and investors. It is not a broker dealer or an investment adviser, and is not receiving compensation from the transactions that may occur on the Platform. Nothing on this site constitutes investment advice. 
+
+                Network tokens and cryptocurrency are particularly volatile in value and liquidity, and any investment in such assets is risky and may result in total loss of invested capital. Past performance of a network or a cryptocurrency is not indicative of similar future patterns. Only sophisticated investors who understand the risks of speculative investing in new asset classes may participate on this Platform. 
+
+                Charles Enterprises does not verify information provided by token issuers or other users on this Platform and makes no assurance as to the completeness or accuracy of any such information. All activities on this site are governed by our Terms of Service. Arbitration is the sole dispute resolution method in any matter involving Charles Enterprises as a technical platform.</p>
+                </div>
+            <div class="col-md-4 col-sm-5 pl-5  paddingtop-bottom">
+              <h6 class="heading7">COMPANY</h6>
+              <ul class="footer-ul">
+                <li><a href="#"> Career</a></li>
+                <li><a href="#"> Privacy Policy</a></li>
+                <li><a href="#"> Terms & Conditions</a></li>
+                <li><a href="#"> NASDEX</a></li>
+                <li><a href="#"> Compliance</a></li>
+                <li><a href="#"> Frequently Ask Questions</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 corrector-footer-device  paddingtop-bottom">
+              <h6 class="heading7 ">Policies</h6>
+            
+                  <ul class="footer-ul">
+                    <li><a href="#"> Career</a></li>
+                    <li><a href="#"> Privacy Policy</a></li>
+                    <li><a href="#"> Terms & Conditions</a></li>
+                    <li><a href="#"> NASDEX</a></li>
+                    <li><a href="#"> Compliance</a></li>
+                    <li><a href="#"> Frequently Ask Questions</a></li>
+                  </ul>
+                  
+                 </div>
         
-      </div>
+              
+            </div>
         </div>
       </footer>
-    </div> <!-- /container -->
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     
   </body>
